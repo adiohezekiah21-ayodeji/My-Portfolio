@@ -16,6 +16,7 @@ export default function WorkSection() {
               <h2 className="mt-4 text-2xl font-semibold text-white">{project.title}</h2>
               <p className="mt-3 text-base leading-7 text-slate-300">{project.description}</p>
               <div className="mt-5 flex flex-wrap gap-2">{project.stack.map((item) => <span key={item} className="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-xs text-slate-200">{item}</span>)}</div>
+              {project.url ? <a href={project.url} target="_blank" rel="noreferrer" className="mt-6 inline-flex text-sm font-semibold text-cyan-200 transition hover:text-cyan-100">View live website <span aria-hidden="true" className="ml-2">-&gt;</span></a> : <span className="mt-6 inline-flex text-sm font-semibold text-slate-500">Live link coming soon</span>}
             </article>
           ))}
         </div>
