@@ -35,7 +35,7 @@ export const projects = [
   },
   {
     title: "Recipe Finder",
-    url: "",
+    url: "https://recipe-finder-two-zeta.vercel.app/",
     type: "Web Application",
     description:
       "A web application that helps users discover and save recipes based on their dietary preferences.",
