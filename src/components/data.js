@@ -78,7 +78,7 @@ export const projects = [
     description:
       "An e-commerce platform that focuses on creating seamless shopping experiences with a strong emphasis on user engagement and conversion.",
     stack: ["Brand Strategy", "React", "Tailwind CSS"],
-    image: "/images/Spotless-G%20Tech%20Hub.png",
+    image: "/images/spotless-g-tech.png",
   },
 ];
 
