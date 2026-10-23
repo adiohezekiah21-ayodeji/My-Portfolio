@@ -12,11 +12,22 @@ export default function ContactSection() {
         <div className="mt-12 border-t border-white/10 pt-8">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-200">Find me online</p>
           <div className="mt-5 flex flex-wrap justify-center gap-3">
-            {socialLinks.map((social) => (
-              <a key={social.name} href={social.href} className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-300/60 hover:bg-cyan-400/10 hover:text-white">
-                {social.name}
-              </a>
-            ))}
+            {socialLinks.map((social) => {
+              const isExternal = social.href.startsWith("http");
+
+              return (
+                <a
+                  key={social.name}
+                  href={social.href}
+                  target={isExternal ? "_blank" : undefined}
+                  rel={isExternal ? "noreferrer" : undefined}
+                  aria-label={social.name}
+                  className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-300/60 hover:bg-cyan-400/10 hover:text-white"
+                >
+                  {social.name}
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>

@@ -14,6 +14,12 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Hezekiah Adio | Portfolio",
   description: "A premium portfolio website for a product designer and front-end developer.",
+  keywords: ["Hezekiah Adio", "Portfolio", "Product Designer", "Front-end Developer", "Next.js"],
+  openGraph: {
+    title: "Hezekiah Adio | Portfolio",
+    description: "Premium digital experiences, product design, and front-end development.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {

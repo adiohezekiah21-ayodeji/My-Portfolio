@@ -1,27 +1,29 @@
 export const skills = [
-  "Next.js",
   "React",
   "JavaScript",
-  "Tailwind CSS",
-  "UI Design",
-  "Brand Systems",
+  "Git and GitHub",
+  "REST APIs",
+  "Bootstrap",
+  "CSS",
+  "HTML",
 ];
+
+export const learningSkills = ["Next.js", "Tailwind CSS"];
+
 
 export const services = ["Brand Design", "Front-end Development", "Landing Pages"];
 
 export const stats = [
   { value: 4.5, suffix: "+", label: "Stars" },
-  { value: 10, suffix: "+", label: "Projects" },
-  { value: 96, suffix: "%", label: "Satisfaction" },
+  { value: 6, suffix: "+", label: "Projects" },
+  { value: 92, suffix: "%", label: "Satisfaction" },
 ];
 
 export const socialLinks = [
   { name: "LinkedIn", href: "#" },
-  { name: "GitHub", href: "#" },
-  { name: "Instagram", href: "#" },
-  { name: "X / Twitter", href: "#" },
-  { name: "Behance", href: "#" },
-  { name: "Dribbble", href: "#" },
+  { name: "GitHub", href: "https://github.com/adiohezekiah21-ayodeji" },
+  { name: "WhatsApp", href: "https://wa.me/2349050229139" },
+  { name: "Mail", href: "mailto:techhubsolutionshz@gmail.com" },
 ];
 
 export const projects = [
@@ -68,6 +70,15 @@ export const projects = [
       "A solution built to digitalize queues, thereby saving time and energy in place.",
     stack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "Render", "Vercel"],
     image: "/images/queless.png",
+  },
+  {
+    title: "Spotless-G Tech Hub",
+    url: "",
+    type: "E-commerce Experience",
+    description:
+      "An e-commerce platform that focuses on creating seamless shopping experiences with a strong emphasis on user engagement and conversion.",
+    stack: ["Brand Strategy", "React", "Tailwind CSS"],
+    image: "/images/Spotless-G%20Tech%20Hub.png",
   },
 ];
 
