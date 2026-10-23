@@ -9,9 +9,9 @@ export default function HomeSection() {
       <div className="mx-auto grid max-w-6xl gap-14 px-6 py-20 lg:grid-cols-[1.2fr_0.8fr] lg:px-8 lg:py-28">
         <div className="flex flex-col justify-center">
           <span className="mb-6 inline-flex w-fit rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-cyan-200">Available for freelance work</span>
-          <div className="mb-4 flex items-center gap-3 text-sm text-slate-300"><span className="inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.8)]" />Open to product design and front-end roles</div>
+          <div className="mb-4 flex items-center gap-3 text-sm text-slate-300"><span className="inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.8)]" />Open to front-end roles</div>
           <h1 className="max-w-xl text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl lg:text-7xl">I design bold digital experiences that feel premium.</h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">I&apos;m Hezekiah, a product designer and front-end developer crafting visually rich, conversion-focused experiences for brands and startups that want to stand out.</p>
+          <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">I&apos;m Hezekiah, a front-end developer crafting visually rich, conversion-focused experiences for brands and startups that want to stand out.</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link href="/work" className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition duration-200 hover:-translate-y-0.5 hover:bg-cyan-300">View my work</Link>
             <Link href="/about" className="rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/10">About me</Link>
